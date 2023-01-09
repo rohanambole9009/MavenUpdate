@@ -30,6 +30,8 @@ public class Test {
 	std.setName("Rohan");
 	std.setCity("Kohapur");
 	
+	System.out.println("edit  done");
+	
 	session.update(std);
 		
 		transaction.commit();
