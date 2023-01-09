@@ -27,7 +27,7 @@ public class Test {
 		
 	Student std = (Student) session.get(Student.class, 1);
 		
-	std.setName("Rohan");
+	std.setName("Nikhil");
 	std.setCity("Kohapur");
 	
 	System.out.println("edit  done");
