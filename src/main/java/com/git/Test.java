@@ -30,7 +30,7 @@ public class Test {
 	std.setName("Rohan");
 	std.setCity("Kohapur");
 	
-	System.out.println("edit  done");
+	System.out.println("Manisha jau shktes tu");
 	
 	session.update(std);
 		
