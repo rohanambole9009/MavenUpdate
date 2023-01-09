@@ -27,8 +27,8 @@ public class Test {
 		
 	Student std = (Student) session.get(Student.class, 1);
 		
-	std.setName("akshay");
-	std.setCity("nagar");
+	std.setName("Rohan");
+	std.setCity("Kohapur");
 	
 	session.update(std);
 		
